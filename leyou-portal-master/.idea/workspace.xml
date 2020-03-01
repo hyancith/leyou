@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83dd4e34-b900-4de6-a4a0-01664f0db57b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>timeout</find>
+      <find>interceptors</find>
+      <find>interceptors.response</find>
+      <find>axios</find>
+      <find>allowDots</find>
+      <find>breads</find>
+      <find>categories</find>
+      <find>sku</find>
+      <find>common</find>
+      <find>skus</find>
+      <find>add</find>
+      <find>ownSpec</find>
+      <find>parse</find>
+      <find>stringify</find>
+      <find>selectedCarts</find>
+      <find>selectAll</find>
+      <find>delete</find>
+      <find>carts</find>
+      <find>loadSku</find>
+      <find>ogin</find>
+      <find>store</find>
+      <find>submit</find>
+      <find>addre</find>
+      <find>spec</find>
+      <find>own</find>
+      <find>ownspec</find>
+    </findStrings>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1YW8D2rHo3ZOvWpbANFVgfcbXWq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550916418602" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leyou" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MY_IDEA\leyou-portal\js" />
+      <recent name="D:\MY_IDEA\leyou-portal" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83dd4e34-b900-4de6-a4a0-01664f0db57b" name="Default Changelist" comment="" />
+      <created>1548831724913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548831724913</updated>
+      <workItem from="1548831728047" duration="2885000" />
+      <workItem from="1548911747165" duration="954000" />
+      <workItem from="1549699823279" duration="855000" />
+      <workItem from="1549700738070" duration="10542000" />
+      <workItem from="1549947076618" duration="25150000" />
+      <workItem from="1550033478800" duration="10725000" />
+      <workItem from="1550219338478" duration="2822000" />
+      <workItem from="1550290162425" duration="1442000" />
+      <workItem from="1550458507131" duration="851000" />
+      <workItem from="1550544295331" duration="2790000" />
+      <workItem from="1550632655544" duration="14692000" />
+      <workItem from="1550727203972" duration="2355000" />
+      <workItem from="1550730912473" duration="5468000" />
+      <workItem from="1550803212777" duration="8405000" />
+      <workItem from="1550899908339" duration="563000" />
+      <workItem from="1550901502595" duration="3978000" />
+      <workItem from="1550992333748" duration="4814000" />
+      <workItem from="1553063778558" duration="2611000" />
+      <workItem from="1583046873131" duration="1064000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="623" height="498" key="SwitcherDM" timestamp="1583047128842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1583047128842" />
+    <state x="567" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1583046904618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="306" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583046904618" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
