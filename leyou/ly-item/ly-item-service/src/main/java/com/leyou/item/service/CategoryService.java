@@ -7,7 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class CategoryService {
@@ -32,5 +34,18 @@ public class CategoryService {
         List<Category> categories = categoryMapper.selectByIdList(ids);
 
         return categories;
+    }
+
+    //查询全部分类
+    public List<Category> queryAllByCid3(Long id) {
+        Category c3 = this.categoryMapper.selectByPrimaryKey(id);
+        Category c2 = this.categoryMapper.selectByPrimaryKey(c3.getParentId());
+        Category c1 = this.categoryMapper.selectByPrimaryKey(c2.getParentId());
+        return Arrays.asList(c1,c2,c3);
+    }
+
+    public List<String> queryNamesByIds(List<Long> ids) {
+        List<Category> categories = categoryMapper.selectByIdList(ids);
+        return categories.stream().map(Category::getName).collect(Collectors.toList());
     }
 }

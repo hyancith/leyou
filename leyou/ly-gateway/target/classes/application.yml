@@ -13,3 +13,13 @@ zuul:
   retryable: true
   routes:
     item-service: /item/** #路由到商品的微服务
+    search-service: /search/** # 商品搜索微服务映射路径
+    ignored-patterns: /upload/**
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 999999 # 设置hystrix的超时时间10秒
