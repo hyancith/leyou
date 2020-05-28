@@ -36,6 +36,7 @@ public class SpecIficationService {
         return params;
     }
 
+
     //根据条件查询规格参数
     public List<SpecParam> querySpecParams(Long gid, Long cid, Boolean searching, Boolean generic) {
         SpecParam param = new SpecParam();

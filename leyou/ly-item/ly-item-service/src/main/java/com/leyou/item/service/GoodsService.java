@@ -11,6 +11,8 @@ import com.leyou.item.mapper.SkuMapper;
 import com.leyou.item.mapper.StockMapper;
 import com.leyou.item.pojo.*;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -42,6 +44,9 @@ public class GoodsService {
 
     @Autowired
     private StockMapper stockMapper;
+
+    @Autowired
+    private AmqpTemplate amqpTemplate;
 
     public PageResult querySpuByPage(Integer page, Integer rows, Boolean saleable, String key) {
 
@@ -94,6 +99,12 @@ public class GoodsService {
 
         // 保存sku和库存信息
         saveSkuAndStock(spu.getSkus(), spu.getId());
+
+        try {
+            amqpTemplate.convertAndSend("item.insert",spu.getId());
+        } catch (AmqpException e) {
+            e.printStackTrace();
+        }
     }
 
     private void saveSkuAndStock(List<Sku> skus, Long spuId) {
@@ -113,6 +124,11 @@ public class GoodsService {
             stock.setSkuId(sku.getId());
             stock.setStock(sku.getStock());
             stockMapper.insert(stock);
+        }
+        try {
+            amqpTemplate.convertAndSend("item.insert",spuId);
+        } catch (AmqpException e) {
+            e.printStackTrace();
         }
     }
 
@@ -162,6 +178,12 @@ public class GoodsService {
 
         // 更新spu详情
         spuDetailMapper.updateByPrimaryKeySelective(spu.getSpuDetail());
+
+        try {
+            amqpTemplate.convertAndSend("item.update",spu.getId());
+        } catch (AmqpException e) {
+            e.printStackTrace();
+        }
     }
 
     public Spu querySpuById(Long id) {
@@ -169,4 +191,17 @@ public class GoodsService {
 
         return spu;
     }
-}
+
+    public List<Sku> querySkuBySpuIds(List<Long> ids) {
+        List<Sku> list = skuMapper.selectByIdList(ids);
+
+        return list;
+    }
+
+    public Sku querySkuById(Long id) {
+        Stock stock = stockMapper.selectByPrimaryKey(id);
+        Sku sku = skuMapper.selectByPrimaryKey(id);
+        sku.setStock(stock.getStock());
+        return sku;
+    }
+    }

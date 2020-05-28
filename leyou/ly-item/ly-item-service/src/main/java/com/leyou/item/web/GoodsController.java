@@ -52,7 +52,7 @@ public class GoodsController {
 
     @GetMapping("/spu/detail/{id}")
     public ResponseEntity<SpuDetail> querySpuDetailById(@PathVariable("id") Long id) {
-        SpuDetail detail = this.goodsService.querySpuDetailById(id);
+        SpuDetail detail = goodsService.querySpuDetailById(id);
         if (detail == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
@@ -61,7 +61,17 @@ public class GoodsController {
 
     @GetMapping("/sku/list")
     public ResponseEntity<List<Sku>> querySkuBySpuId(@RequestParam("id") Long id) {
-        List<Sku> skus = this.goodsService.querySkuBySpuId(id);
+        List<Sku> skus = goodsService.querySkuBySpuId(id);
+        if (CollectionUtils.isEmpty(skus)) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(skus);
+    }
+
+
+    @GetMapping("/sku/list/ids")
+    public ResponseEntity<List<Sku>> querySkuBySpuIds(@RequestParam("ids") List<Long> ids) {
+        List<Sku> skus = goodsService.querySkuBySpuIds(ids);
         if (CollectionUtils.isEmpty(skus)) {
             return ResponseEntity.notFound().build();
         }
@@ -76,7 +86,7 @@ public class GoodsController {
     @PutMapping("/goods")
     public ResponseEntity<Void> updateGoods(@RequestBody SpuBo spu) {
         try {
-            this.goodsService.update(spu);
+            goodsService.update(spu);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         } catch (Exception e) {
             e.printStackTrace();
@@ -87,10 +97,21 @@ public class GoodsController {
     //根据id查询spu
     @GetMapping("spu/{id}")
     public ResponseEntity<Spu> querySpuById(@PathVariable("id") Long id){
-        Spu spu = this.goodsService.querySpuById(id);
+        Spu spu = goodsService.querySpuById(id);
         if(spu == null){
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return ResponseEntity.ok(spu);
     }
+
+
+    @GetMapping("sku/{id}")
+    public ResponseEntity<Sku> querySkuById(@PathVariable("id")Long id){
+        Sku sku = goodsService.querySkuById(id);
+        if (sku == null){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return ResponseEntity.ok(sku);
+    }
+
 }

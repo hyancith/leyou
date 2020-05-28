@@ -45,10 +45,8 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.leyou.common</groupId>
-            <artifactId>ly-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
     </dependencies>
 

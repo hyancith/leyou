@@ -2,47 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83dd4e34-b900-4de6-a4a0-01664f0db57b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-auth/ly-auth-common/ly-auth-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-auth/ly-auth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-cart/ly-cart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-sms/ly-sms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/top.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-common/src/main/java/com/leyou/common/utils/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-common/src/main/java/com/leyou/common/utils/PageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-common/target/classes/com/leyou/common/utils/PageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-common/target/classes/com/leyou/common/utils/PageResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-gateway/src/main/java/com/leyou/gateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-gateway/src/main/java/com/leyou/gateway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/ly-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/ly-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/SpecGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/SpecGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/SpecParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/SpecParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/SpuDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/SpuDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpecGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpecGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpecParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpecParam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpuDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpuDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-gateway/target/classes/com/leyou/gateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-gateway/target/classes/com/leyou/gateway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/api/GoodsApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/api/GoodsApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SkuMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/SpecIficationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/SpecIficationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/SpecIficationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/SpecIficationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/BrandMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SkuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SkuMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/GoodsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/SpecIficationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/SpecIficationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/CategoryController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/SpecIficationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/SpecIficationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-upload/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/upload/service/UplodeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/upload/web/UplodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/upload/web/UplodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-upload/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-upload/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-upload/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/ly-upload/target/classes/com/leyou/upload/web/UplodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-upload/target/classes/com/leyou/upload/web/UplodeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-page/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-page/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-page/src/main/java/com/leyou/page/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-page/src/main/java/com/leyou/page/service/PageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-page/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-page/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-page/src/main/resources/templates/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-page/src/main/resources/templates/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-page/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-page/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-page/target/classes/com/leyou/page/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-page/target/classes/com/leyou/page/service/PageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-page/target/classes/templates/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-page/target/classes/templates/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-search/src/main/java/com/leyou/service/SerarchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-search/src/main/java/com/leyou/service/SerarchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-search/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/ly-search/target/classes/com/leyou/service/SerarchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/ly-search/target/classes/com/leyou/service/SerarchService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +53,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/hyancith/leyou.git" />
+      </set>
+    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -69,12 +77,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550916418602" />
     <property name="jdk.selected.JAVA_MODULE" value="8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leyou" />
+    <property name="last_opened_file_path" value="E:/IDEA-workSpace/javademo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -84,6 +93,12 @@
       <recent name="D:\MY_IDEA\leyou-portal\js" />
       <recent name="D:\MY_IDEA\leyou-portal" />
     </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -216,6 +231,11 @@
       <workItem from="1583651312391" duration="11103000" />
       <workItem from="1583728552292" duration="13641000" />
       <workItem from="1583813760451" duration="7561000" />
+      <workItem from="1584269227075" duration="2708000" />
+      <workItem from="1584336620297" duration="15850000" />
+      <workItem from="1584418273668" duration="337000" />
+      <workItem from="1584418956602" duration="9801000" />
+      <workItem from="1584443500040" duration="160000" />
     </task>
     <servers />
   </component>
@@ -259,11 +279,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改提交" />
@@ -278,10 +293,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="468" y="47" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583845782908" />
-    <state x="690" y="220" key="FileChooserDialogImpl" timestamp="1583822158545">
+    <state x="690" y="220" key="FileChooserDialogImpl" timestamp="1584443597239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="220" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583822158545" />
+    <state x="690" y="220" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584443597239" />
     <state x="333" y="78" key="SettingsEditor" timestamp="1583497538991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -298,10 +313,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="612" y="279" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583051886099" />
-    <state x="161" y="38" key="new project wizard" timestamp="1583130690553">
+    <state x="161" y="38" key="new project wizard" timestamp="1584443654551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="161" y="38" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583130690553" />
+    <state x="161" y="38" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584443654551" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1583816365742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

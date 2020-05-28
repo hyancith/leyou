@@ -55,7 +55,7 @@
 													<p v-text="c.title.substring(0, 35) + '...'"></p>
                                                     <p style="margin-bottom: 0px" v-for="(v,k) in JSON.parse(c.ownSpec)"
                                                        :key="k">
-                                                        <span v-text="k"></span> : <span style="color: #BE0000;" v-text="v"></span>
+                                                        <span style="color: #BE0000;" v-text="v">{{v}}</span>
                                                     </p>
 												</span>
                                         </div>
@@ -331,17 +331,12 @@
                     // 判断本地未登录购物车是否存在，如果存在，发到后台，添加到redis，删除本地购物车
                     if(ly.store.get("carts")!=null){
                         let carts=ly.store.get("carts");
-                        carts.forEach(s => {
-                            leyou.http.post("/cart", {
-                                skuId: s.id,
-                                title: s.title,
-                                image: s.images[0],
-                                price: s.price,
-                                num: s.num,
-                                ownSpec: JSON.stringify(s.ownSpec)
-                            })
-                        });
-                        ly.store.del("carts");
+                        // carts.forEach(s => {
+                                leyou.http.post("/cart/list", {
+                                    carts
+                                })
+                        //});
+                            ly.store.del("carts");
                     }
                     console.log("已登录");
                     // 已登录
@@ -370,10 +365,10 @@
                 c.num++;
                 this.isLogin().then(() => {
                     // 已登录
-                    ly.http.put("/cart", ly.stringify({
-                        id: c.skuId,
+                    ly.http.put("/cart", {
+                        skuId: c.skuId,
                         num: c.num
-                    })).catch(() => {
+                    }).catch(() => {
                         alert("服务器忙");
                     })
                 }).catch(() => {
@@ -386,10 +381,10 @@
                 c.num--;
                 this.isLogin().then(() => {
                     // 已登录
-                    ly.http.put("/cart", ly.stringify({
-                        id: c.skuId,
+                    ly.http.put("/cart", {
+                        skuId: c.skuId,
                         num: c.num
-                    })).catch(() => {
+                    }).catch(() => {
                         alert("服务器忙");
                     })
                 }).catch(() => {

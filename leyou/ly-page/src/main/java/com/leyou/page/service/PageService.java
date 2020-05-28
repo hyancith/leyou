@@ -104,6 +104,10 @@ public class PageService {
          context.setVariables(model);
 
         File dest = new File("E:\\nginx-1.17.8\\html\\item\\" + spuId + ".html");
+
+        if (dest.exists()) {
+            dest.delete();
+        }
             PrintWriter writer = new PrintWriter(dest,"utf-8");
             // 执行页面静态化方法
             templateEngine.process("item", context, writer);
@@ -119,8 +123,10 @@ public class PageService {
 
 
 
-//    public void deleteHtml(Long id) {
-//        File file = new File("E:\\nginx-1.17.8\\html\\images\\item", id + ".html");
-//        file.deleteOnExit();
-//    }
+    public void deleteHtml(Long id) {
+        File file = new File("E:\\nginx-1.17.8\\html\\item\\", id + ".html");
+        if (file.exists()) {
+            file.delete();
+        }
+    }
 }

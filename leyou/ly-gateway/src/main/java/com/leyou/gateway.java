@@ -11,6 +11,6 @@ import org.springframework.cloud.netflix.zuul.EnableZuulServer;
 @SpringBootApplication
 public class gateway {
     public static void main(String[] args) {
-        SpringApplication.run(gateway.class);
+        SpringApplication.run(gateway.class,args);
     }
 }

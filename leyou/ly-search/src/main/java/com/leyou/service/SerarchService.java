@@ -327,4 +327,16 @@ public class SerarchService {
         }
         return result;
     }
+
+
+    public void save(Long id) throws Exception {
+        Spu spu = goodsClient.querySpuById(id);
+        Goods goods = buildGoods(spu);
+        goodsRepositort.save(goods);
+
+    }
+
+    public void delete(Long id) {
+        goodsRepositort.deleteById(id);
+    }
 }
